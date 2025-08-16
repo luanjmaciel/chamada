@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+}
+
+h1 {
+    color: #005bb5;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+#tabela-participantes {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#tabela-participantes thead th {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+#tabela-participantes tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+#tabela-participantes th,
+#tabela-participantes td {
+    padding: 12px 15px;
+    border: 1px solid #dee2e6;
+}
+
+#tabela-participantes tbody tr:hover {
+    background-color: #e2f0ff;
+}
+
+#mensagem-status {
+    color: #dc3545;
+    margin-top: 20px;
+}
